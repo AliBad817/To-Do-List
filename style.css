@@ -1,0 +1,94 @@
+body {
+	position: center;
+	background-image: url(https://images2.alphacoders.com/760/thumb-1920-760463.png); 
+}
+
+h1 {
+	color: white;
+	position: center;
+}
+
+#first {
+	color: white;
+}
+
+* {
+  font-family: sans-serif;
+}
+.done {
+  text-decoration: line-through;
+  background: #40d434;
+}
+.done:after {
+  content: "\f164";
+  position: absolute;
+  line-height: 1.7;
+  padding-left: 5px;
+  color: green;
+  font-family: FontAwesome;
+}
+li {
+  padding: 0 0 0 10px;
+  cursor: pointer;
+  background: white;
+  color: #222;
+  margin: 2px;
+  margin-left: 0;
+  display: inline-block;
+  float: left;
+  clear: both;
+  border: 1px solid #333;
+}
+li:after {
+  clear: both;
+}
+.listParent {
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+}
+li button {
+  right: 0;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  margin: 0;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+li button:hover {
+  background: #111;
+  transition: all 0.3s;
+}
+
+#userinput {
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 10px;
+  min-width: 50px;
+  border: 1px solid grey;
+}
+#userinput:focus {
+  border: 1px solid blue;
+}
+
+#enter {
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 10px;
+  width: 150px;
+  border: 1px solid grey;
+  margin-left: -5px;
+  background: #00aeef;
+  color: white;
+}
+#enter:hover {
+  background: #00a1dd;
+  cursor: pointer;
+  color: white;
+}
